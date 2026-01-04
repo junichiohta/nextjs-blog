@@ -40,3 +40,7 @@ a {
     color-scheme: dark;
   }
 }
+
+html, body, #__next {
+  height: 100%;
+}
