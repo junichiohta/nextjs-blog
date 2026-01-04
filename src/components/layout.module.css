@@ -1,0 +1,35 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 60px; /* フッターの高さ分の余白 */
+}
+
+.header {
+  background-color: #0070f3;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profileImage {
+  border-radius: 50%;
+}
+
+.main {
+  flex: 1;
+  padding: 2rem;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f0f0f0;
+  padding: 1rem 2rem;
+  text-align: center;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
