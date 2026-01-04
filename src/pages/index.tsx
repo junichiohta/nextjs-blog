@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import localFont from "next/font/local";
 import styles from "@/styles/Home.module.css";
 
@@ -41,6 +42,12 @@ export default function Home() {
             </li>
             <li>Save and see your changes instantly.</li>
           </ol>
+
+          <div style={{ margin: "2rem 0" }}>
+            <Link href="/posts/first-post" style={{ fontSize: "1.2rem", color: "#0070f3" }}>
+              📝 First Post ページへ
+            </Link>
+          </div>
 
           <div className={styles.ctas}>
             <a
